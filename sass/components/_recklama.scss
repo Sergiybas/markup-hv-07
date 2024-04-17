@@ -1,0 +1,35 @@
+.recklama-block>h2 {
+
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.recklama-block {
+    display: none;
+    text-align: center;
+}
+
+.recklama-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 120px;
+    gap: 24px;
+
+}
+
+@media screen and (min-width:1158px) {
+    .recklama-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recklama-img {
+        flex-direction: row;
+    }
+}

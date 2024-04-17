@@ -1,0 +1,139 @@
+.logo {
+    padding-top: 25.5px;
+    padding-bottom: 23.5px;
+    margin-left: auto;
+    font-family: $second-family;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:$iris;
+    text-decoration: none;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+.fon-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+.address {
+    display: none;
+    padding: 10px 0;
+    gap: 40px;
+
+
+@media screen and (min-width:768px) {
+    & {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+}
+
+@media screen and (min-width:1158px) {
+    & {
+        flex-direction: row;
+
+    }
+}
+}
+.address-block {
+    margin-left: auto;
+}
+
+.header-studio {
+    color: $navy-blue;
+}
+
+.nav {
+    display: none;
+    margin-left: 76px;
+    gap: 40px;
+
+    font-weight: 500;
+    line-height: 150%;
+
+
+@media screen and (min-width:768px) {
+    & {
+        display: flex;
+    }
+}}
+
+.nav-list {
+
+    display: block;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: relative;
+    color: var(--navy-blue);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+&:hover,
+:focus {
+    color: $ocean;
+}
+}
+.line-bottom::after {
+    content: '';
+    display: block;
+
+    position: absolute;
+
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $ocean;
+    bottom: -1px;
+}
+
+.mail {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    :focus {
+        color: $ocean;
+    }
+}
+
+.tel {
+    font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+        text-decoration: none;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+        &:hover,
+        :focus {
+            color: var(--ocean);
+        }
+}
