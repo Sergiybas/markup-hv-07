@@ -479,6 +479,11 @@ img {
 .tel :focus {
   color: var(--ocean);
 }
+@media screen and (min-width: 1158px) {
+  .tel {
+    margin-left: 40px;
+  }
+}
 
 .fon-hero {
   max-width: 428px;
